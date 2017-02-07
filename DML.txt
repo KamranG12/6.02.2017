@@ -1,0 +1,10 @@
+Data Manipulation Language(DML)-table.larda setirleri deyishiklik etmek,silmek ve ya elave etmek uchun istifade olunur.Ashagidakilardir:
+
+ - INSERT - database setrde olan melumatlari elave etmekchun istifade olunur.Komandanin yazilishi:
+  INSERT INTO <Table adi> (<kalonlarin listi>) VALUES (<deyerleri>).
+
+ - DELETE - database.de setrleri silmekchun istifade olunur.Komandanin yazilishi:
+  DELETE FROM <Table adi> WHERE <silinen yerler(id setr)>
+
+ - UPDATE - database.de setrlerde deyishiklikler elemekchun istifade olunur.Komandanin yazilishi:
+  UPDATE <Table Name> SET <Column1> = <Value1>, <Column2> = <Value2>, … WHERE <deyishiklik olunan yerler>
